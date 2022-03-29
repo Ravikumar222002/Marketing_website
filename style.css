@@ -1,0 +1,355 @@
+
+/* 
+
+ms-auto:- for nav-link to move right side
+
+ */
+ 
+ 
+*{
+     margin:0;
+     padding:0;
+     box-sizing:border-box;
+}
+
+body
+{
+    font-family:sans-serif;
+}
+
+#nav-bar
+{
+   position:sticky;
+   top:0;
+   z-index:10;
+}
+
+.navbar
+{
+    background-image:linear-gradient(to right, #a517ba, #5f1782);
+    
+    padding:0 !important;
+}
+
+.navbar-brand img
+{
+    height:40px;
+    padding-left:20px;
+}
+
+.navbar-nav li
+{
+    padding:0 10px;
+}
+
+.navbar-nav li a
+{
+    color:#fff !important;
+    font-weight:500;
+    text-align:center;
+}
+
+.fa-bars
+{
+    color:#fff;
+    font-size:19px !important;
+}
+
+.navbar-toggler 
+{
+    outline:none !important;
+}
+
+
+      /*  banner section      */
+
+#banner
+{
+   background-image:linear-gradient(to right, #a517ba, #5f1782);
+   color:#fff;
+   padding-top:8%;
+    
+}
+
+.banner-heading
+{
+    font-size:35px;
+    margin-top:15%;
+}
+
+.play-btn
+{
+    width:50px;
+    margin:15px;
+}
+
+#banner a
+{
+    text-decoration:none;
+    color:#fff;
+}
+
+.img-fluid
+{
+    margin-top:15px;
+    height:100%;
+    width:100%;
+}
+
+.bottom-wave
+{
+    width:100%;
+}
+
+
+   /* service section */
+
+
+#service
+{
+    margin-top:120px;
+    margin-bottom:120px;
+}
+
+#service img
+{
+    width:130px;
+    margin-top:20px;
+}
+#service h4
+{
+    margin-top:25px;
+    padding:5px;
+    text-transform:uppercase;
+}
+.services
+{
+    padding:20px;  
+}
+
+.title::before
+{
+   content:""; 
+   background-color:#5f1782;
+   height:5px;
+   width:180px;
+   margin-left:auto;
+   margin-right:auto;
+   display:block;
+   
+   transform:translateY(58px);
+}
+
+.title::after
+{
+   content:""; 
+   background-color:#5f1782;
+   height:10px;
+   width:40px;
+   margin-left:auto;
+   margin-right:auto;
+   display:block;
+   
+   transform:translateY(12px);
+   /* 18 */
+}
+
+#service .btn-primary
+{
+    border:none;
+    box-shadow:none;
+    padding:10px 25px;
+    border-radius:25px;
+    background-image:linear-gradient(to right, #a517ba, #5f1782);
+}
+
+
+
+    /*------about us section ----*/
+    
+#about-us
+{
+    background-color:#f8f8fa;
+    padding:50px 0;
+}
+
+.about-title
+{
+    margin-left:50px;
+    padding:5px;
+    font-size:25px;
+    font-weight:600;
+}
+.about-us
+{
+    margin-top:70px;
+    line-height:;
+    text-align:left;
+}
+.about-us ul li
+{
+    margin:10px 0;
+}
+
+
+
+/*------testimorial section-----*/
+
+
+#testimorial
+{
+    margin:100px 0;
+}
+
+.testimorials
+{
+    margin-top:100px;
+    margin-bottom:70px;
+    border-left:4px solid #5f1782;
+}
+
+.testimorials img
+{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    margin:0 15px;
+}
+
+.user-details
+{
+    display:inline-block;
+    font-size:15px;
+    
+}
+
+
+    /* social-media section  */
+    
+    
+#social-media 
+{
+    padding:100px 0;
+    background-color:#f8f8fa;
+}    
+
+.social-icons
+{
+    margin-top:60px;
+    
+}
+.social-icons img
+{
+    width:65px;
+    transition:0.3s;
+}
+
+.social-icons a
+{
+    padding-left:20px;
+}
+
+.social-icons a:hover img
+{
+    transform:translateY(-15px);
+}
+
+
+  /*----footer section ---*/
+  
+#footer
+{
+    background-image:linear-gradient(to right, #a517ba, #5f1782);
+    color:#fff;
+}
+ 
+.footer-wave
+{
+    width:100%;
+}     
+
+.footer-box
+{
+    margin-top:20px;
+} 
+
+.footer-box img
+{
+    width:120px;
+    margin-bottom:40px;
+}
+
+.footer-title
+{
+    margin-left:30px;
+    font-size:26px;
+    margin-top:16px;
+}
+.footer-box .fa
+{
+    
+    font-size:22px;
+    width:40px;
+    height:44px;
+    border-radius:7px;
+     background-image:linear-gradient(to right, #a517ba, #5f1782);
+     padding-top:10px;
+     text-align:center;
+     margin-right:5px;
+    
+}
+
+.footer-box .form-control
+{
+    border:none;
+    box-shadow:none !important;
+    border-radius:0;
+    max-width:300px;
+    margin-top:35px;
+    border-radius:5px;
+    
+}
+
+.footer-box .btn-primary
+{
+    border:none;
+    box-shadow:none !important;
+    border-radius:5px;
+    margin-top:30px;
+    background-image:linear-gradient(to right, #a517ba, #5f1782);
+    padding:6px;
+        
+}
+
+hr
+{
+    background-color:#fff;
+}
+  
+.copyright
+{
+    margin-bottom:0;
+    text-align:center;
+    padding-bottom:15px;
+}
+
+
+  /*-----media query ----*/
+
+@media only screen and (max-width:770px)
+{
+    .title::after
+   {
+   content:""; 
+   background-color:#5f1782;
+   height:10px;
+   width:40px;
+   margin-left:auto;
+   margin-right:auto;
+   display:block;
+   transform:translateY(21px);
+   }
+} 
+    
+    
+     
